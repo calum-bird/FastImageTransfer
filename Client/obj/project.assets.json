@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LiteNetLib/0.8.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/LiteNetLib.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/LiteNetLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LiteNetLib/0.8.3.1": {
+      "sha512": "BicXYfayys6PsJiG96Re/PNPoExqL4FagBcYrVkOuTn7GavP4Z9sn4BTLKSe8vlv6lk8D79KHa12xKiY+T7yjQ==",
+      "type": "package",
+      "path": "litenetlib/0.8.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net35/LiteNetLib.dll",
+        "lib/net35/LiteNetLib.pdb",
+        "lib/net35/LiteNetLib.xml",
+        "lib/netcoreapp2.0/LiteNetLib.deps.json",
+        "lib/netcoreapp2.0/LiteNetLib.dll",
+        "lib/netcoreapp2.0/LiteNetLib.pdb",
+        "lib/netcoreapp2.0/LiteNetLib.xml",
+        "lib/netstandard2.0/LiteNetLib.deps.json",
+        "lib/netstandard2.0/LiteNetLib.dll",
+        "lib/netstandard2.0/LiteNetLib.pdb",
+        "lib/netstandard2.0/LiteNetLib.xml",
+        "litenetlib.0.8.3.1.nupkg.sha512",
+        "litenetlib.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "LiteNetLib >= 0.8.3.1"
+    ]
+  },
+  "packageFolders": {
+    "/Users/calumbird/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/calumbird/Desktop/FastImageTransfer/FastImageTransfer/Client/Client.csproj",
+      "projectName": "Client",
+      "projectPath": "/Users/calumbird/Desktop/FastImageTransfer/FastImageTransfer/Client/Client.csproj",
+      "packagesPath": "/Users/calumbird/.nuget/packages/",
+      "outputPath": "/Users/calumbird/Desktop/FastImageTransfer/FastImageTransfer/Client/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/calumbird/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "LiteNetLib": {
+            "target": "Package",
+            "version": "[0.8.3.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
