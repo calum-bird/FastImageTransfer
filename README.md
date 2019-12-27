@@ -1,2 +1,2 @@
 # FastImageTransfer
-Leverages .NET Core to rapidly compress and send images over a network.
+Leverages C to rapidly compress and send images over a network.
